@@ -1,0 +1,9 @@
+go 1.22.0
+
+use (
+	.
+	./cmd
+	./configs/
+	./pkg/cli_scanner
+	./pkg/parser
+)
